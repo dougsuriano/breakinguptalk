@@ -1,0 +1,3 @@
+target 'BurritoTonight' do
+    pod 'Reveal-SDK', :configurations => ['Debug']
+end

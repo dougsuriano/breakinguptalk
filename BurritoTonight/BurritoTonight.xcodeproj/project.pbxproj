@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0501B3A41F68CF85007B4F0B /* BRTNDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0501B3A31F68CF85007B4F0B /* BRTNDetailsViewController.swift */; };
+		0526440D1F68E812006F681F /* BRTNDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526440C1F68E812006F681F /* BRTNDetailsView.swift */; };
+		055EBD661F68A1D0008AE31D /* BRTNAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055EBD651F68A1D0008AE31D /* BRTNAppDelegate.swift */; };
+		055EBD681F68A1D0008AE31D /* BRTNMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055EBD671F68A1D0008AE31D /* BRTNMenuViewController.swift */; };
+		055EBD6D1F68A1D0008AE31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055EBD6C1F68A1D0008AE31D /* Assets.xcassets */; };
+		05CD06061F68A63500F0AA6E /* BRTNBurrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CD06051F68A63500F0AA6E /* BRTNBurrito.swift */; };
+		C640E9AB83B0FAA1E4FA53A8 /* libPods-BurritoTonight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1AFB72DB11E02C6E60DD510 /* libPods-BurritoTonight.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0501B3A31F68CF85007B4F0B /* BRTNDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRTNDetailsViewController.swift; sourceTree = "<group>"; };
+		0526440C1F68E812006F681F /* BRTNDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRTNDetailsView.swift; sourceTree = "<group>"; };
+		055EBD621F68A1CF008AE31D /* BurritoTonight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurritoTonight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		055EBD651F68A1D0008AE31D /* BRTNAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRTNAppDelegate.swift; sourceTree = "<group>"; };
+		055EBD671F68A1D0008AE31D /* BRTNMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRTNMenuViewController.swift; sourceTree = "<group>"; };
+		055EBD6C1F68A1D0008AE31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		055EBD711F68A1D0008AE31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CD06051F68A63500F0AA6E /* BRTNBurrito.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRTNBurrito.swift; sourceTree = "<group>"; };
+		4DEDE464BE6B38A9006D21ED /* Pods-BurritoTonight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurritoTonight.release.xcconfig"; path = "Pods/Target Support Files/Pods-BurritoTonight/Pods-BurritoTonight.release.xcconfig"; sourceTree = "<group>"; };
+		875F99BC329F3F6858D4350B /* Pods-BurritoTonight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurritoTonight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BurritoTonight/Pods-BurritoTonight.debug.xcconfig"; sourceTree = "<group>"; };
+		E1AFB72DB11E02C6E60DD510 /* libPods-BurritoTonight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BurritoTonight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		055EBD5F1F68A1CF008AE31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C640E9AB83B0FAA1E4FA53A8 /* libPods-BurritoTonight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		055EBD591F68A1CF008AE31D = {
+			isa = PBXGroup;
+			children = (
+				055EBD641F68A1D0008AE31D /* BurritoTonight */,
+				055EBD631F68A1CF008AE31D /* Products */,
+				83D687259A6A5B579D5BFECE /* Pods */,
+				3DEE4313BCB0C35868970F48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		055EBD631F68A1CF008AE31D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				055EBD621F68A1CF008AE31D /* BurritoTonight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		055EBD641F68A1D0008AE31D /* BurritoTonight */ = {
+			isa = PBXGroup;
+			children = (
+				055EBD651F68A1D0008AE31D /* BRTNAppDelegate.swift */,
+				055EBD671F68A1D0008AE31D /* BRTNMenuViewController.swift */,
+				0501B3A31F68CF85007B4F0B /* BRTNDetailsViewController.swift */,
+				055EBD6C1F68A1D0008AE31D /* Assets.xcassets */,
+				055EBD711F68A1D0008AE31D /* Info.plist */,
+				05CD06051F68A63500F0AA6E /* BRTNBurrito.swift */,
+				0526440C1F68E812006F681F /* BRTNDetailsView.swift */,
+			);
+			path = BurritoTonight;
+			sourceTree = "<group>";
+		};
+		3DEE4313BCB0C35868970F48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1AFB72DB11E02C6E60DD510 /* libPods-BurritoTonight.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83D687259A6A5B579D5BFECE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				875F99BC329F3F6858D4350B /* Pods-BurritoTonight.debug.xcconfig */,
+				4DEDE464BE6B38A9006D21ED /* Pods-BurritoTonight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		055EBD611F68A1CF008AE31D /* BurritoTonight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 055EBD741F68A1D0008AE31D /* Build configuration list for PBXNativeTarget "BurritoTonight" */;
+			buildPhases = (
+				56653210E1E3A78F4F6E5CF4 /* [CP] Check Pods Manifest.lock */,
+				055EBD5E1F68A1CF008AE31D /* Sources */,
+				055EBD5F1F68A1CF008AE31D /* Frameworks */,
+				055EBD601F68A1CF008AE31D /* Resources */,
+				FE45F4761D84759BDB345DAD /* [CP] Embed Pods Frameworks */,
+				DA9338ABEE3D6A3C3ABB3BE9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurritoTonight;
+			productName = BurritoTonight;
+			productReference = 055EBD621F68A1CF008AE31D /* BurritoTonight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		055EBD5A1F68A1CF008AE31D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BRTN;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = DougSuriano;
+				TargetAttributes = {
+					055EBD611F68A1CF008AE31D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 055EBD5D1F68A1CF008AE31D /* Build configuration list for PBXProject "BurritoTonight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 055EBD591F68A1CF008AE31D;
+			productRefGroup = 055EBD631F68A1CF008AE31D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				055EBD611F68A1CF008AE31D /* BurritoTonight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		055EBD601F68A1CF008AE31D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055EBD6D1F68A1D0008AE31D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56653210E1E3A78F4F6E5CF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9338ABEE3D6A3C3ABB3BE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurritoTonight/Pods-BurritoTonight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE45F4761D84759BDB345DAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurritoTonight/Pods-BurritoTonight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		055EBD5E1F68A1CF008AE31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0526440D1F68E812006F681F /* BRTNDetailsView.swift in Sources */,
+				055EBD681F68A1D0008AE31D /* BRTNMenuViewController.swift in Sources */,
+				0501B3A41F68CF85007B4F0B /* BRTNDetailsViewController.swift in Sources */,
+				05CD06061F68A63500F0AA6E /* BRTNBurrito.swift in Sources */,
+				055EBD661F68A1D0008AE31D /* BRTNAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		055EBD721F68A1D0008AE31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		055EBD731F68A1D0008AE31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		055EBD751F68A1D0008AE31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875F99BC329F3F6858D4350B /* Pods-BurritoTonight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BurritoTonight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doug.suriano.BurritoTonight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		055EBD761F68A1D0008AE31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEDE464BE6B38A9006D21ED /* Pods-BurritoTonight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BurritoTonight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doug.suriano.BurritoTonight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		055EBD5D1F68A1CF008AE31D /* Build configuration list for PBXProject "BurritoTonight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055EBD721F68A1D0008AE31D /* Debug */,
+				055EBD731F68A1D0008AE31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		055EBD741F68A1D0008AE31D /* Build configuration list for PBXNativeTarget "BurritoTonight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055EBD751F68A1D0008AE31D /* Debug */,
+				055EBD761F68A1D0008AE31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 055EBD5A1F68A1CF008AE31D /* Project object */;
+}
